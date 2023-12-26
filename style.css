@@ -506,8 +506,8 @@ h6 {
     .moreCountryName {
         position: relative;
         top: -70px;
-        left: 85px;
-        font-size: 26px;
+        left: 105px;
+        font-size: 24px;
     }
 
     .backBtn {
@@ -567,58 +567,58 @@ h6 {
 
     .nativeName {
         position: absolute;
-        top: 45%;
+        top: 47%;
         left: 10%;
-        font-size: 32px;
+        font-size: 18px;
     }
 
     .populationM {
         position: absolute;
-        top: 49%;
+        top: 51%;
         left: 10%;
-        font-size: 32px;
+        font-size: 18px;
     }
 
     .regionM {
         position: absolute;
-        top: 53%;
+        top: 55%;
         left: 10%;
-        font-size: 32px;
+        font-size: 18px;
     }
 
     .subRegion {
         position: absolute;
-        top: 57%;
+        top: 59%;
         left: 10%;
-        font-size: 32px;
+        font-size: 18px;
     }
 
     .capitalM {
         position: absolute;
-        top: 61%;
+        top: 63%;
         left: 10%;
-        font-size: 32px;
+        font-size: 18px;
     }
 
     .topLevelDomain {
         position: absolute;
-        top: 68%;
+        top: 70%;
         left: 10%;
-        font-size: 32px;
+        font-size: 18px;
     }
 
     .currency {
         position: absolute;
-        top: 72%;
+        top: 74%;
         left: 10%;
-        font-size: 32px;
+        font-size: 18px;
     }
 
     .language {
         position: absolute;
-        top: 76%;
+        top: 78%;
         left: 10%;
-        font-size: 32px;
+        font-size: 18px;
     }
 
     .borderCountries {
@@ -627,7 +627,7 @@ h6 {
         position: absolute;
         top: 85%;
         left: -5%;
-        font-size: 32px;
+        font-size: 18px;
     }
 
     .borderSpan {
