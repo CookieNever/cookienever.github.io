@@ -731,56 +731,56 @@ h6 {
 
     .nativeName {
         position: absolute;
-        top: 33%;
+        top: 40%;
         left: 10%;
         font-size: 12px;
     }
 
     .populationM {
         position: absolute;
-        top: 37%;
+        top: 44%;
         left: 10%;
         font-size: 12px;
     }
 
     .regionM {
         position: absolute;
-        top: 41%;
+        top: 48%;
         left: 10%;
         font-size: 12px;
     }
 
     .subRegion {
         position: absolute;
-        top: 45%;
+        top: 52%;
         left: 10%;
         font-size: 12px;
     }
 
     .capitalM {
         position: absolute;
-        top: 49%;
+        top: 56%;
         left: 10%;
         font-size: 12px;
     }
 
     .topLevelDomain {
         position: absolute;
-        top: 56%;
+        top: 63%;
         left: 10%;
         font-size: 12px;
     }
 
     .currency {
         position: absolute;
-        top: 60%;
+        top: 67%;
         left: 10%;
         font-size: 12px;
     }
 
     .language {
         position: absolute;
-        top: 64%;
+        top: 71%;
         left: 10%;
         font-size: 12px;
     }
@@ -789,8 +789,8 @@ h6 {
         display: flex;
         flex-wrap: wrap;
         position: absolute;
-        top: 71%;
-        left: 5%;
+        top: 78%;
+        left: 0%;
         font-size: 12px;
     }
 
