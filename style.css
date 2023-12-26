@@ -497,7 +497,7 @@ h6 {
 
     .more-flag {
         max-height: 200px;
-        max-width: 310px;
+        max-width: 330px;
         position: relative;
         left: -74px;
         top: -50px;
@@ -513,7 +513,7 @@ h6 {
     .backBtn {
         position: relative;
         top: -63px;
-        left: 15px;
+        left: 30px;
     }
 
     .filterOptions {
@@ -567,56 +567,56 @@ h6 {
 
     .nativeName {
         position: absolute;
-        top: 37%;
+        top: 45%;
         left: 10%;
         font-size: 32px;
     }
 
     .populationM {
         position: absolute;
-        top: 41%;
+        top: 49%;
         left: 10%;
         font-size: 32px;
     }
 
     .regionM {
         position: absolute;
-        top: 45%;
+        top: 53%;
         left: 10%;
         font-size: 32px;
     }
 
     .subRegion {
         position: absolute;
-        top: 49%;
+        top: 57%;
         left: 10%;
         font-size: 32px;
     }
 
     .capitalM {
         position: absolute;
-        top: 53%;
+        top: 61%;
         left: 10%;
         font-size: 32px;
     }
 
     .topLevelDomain {
         position: absolute;
-        top: 60%;
+        top: 68%;
         left: 10%;
         font-size: 32px;
     }
 
     .currency {
         position: absolute;
-        top: 64%;
+        top: 72%;
         left: 10%;
         font-size: 32px;
     }
 
     .language {
         position: absolute;
-        top: 68%;
+        top: 76%;
         left: 10%;
         font-size: 32px;
     }
@@ -625,7 +625,7 @@ h6 {
         display: flex;
         flex-wrap: wrap;
         position: absolute;
-        top: 75%;
+        top: 85%;
         left: -5%;
         font-size: 32px;
     }
