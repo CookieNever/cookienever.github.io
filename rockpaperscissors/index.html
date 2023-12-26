@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="stylesheet" href="style.css">
+  
+  <title>Frontend Mentor | Rock, Paper, Scissors</title>
+</head>
+
+<body>
+  
+<div class="container">
+
+  <div class="topBox">
+    <div class="titleBox">
+      <img src="images/logo.svg">
+    </div>
+
+    <div class="scoreBox">
+      <h1 class="scoreTitle">SCORE</h1>
+      <h1 class="score">0</h1>
+    </div>
+  </div>
+
+  <div class="content">
+    <div class="buttons">
+      <div class="paperButton" data-option="paper">
+        <img class="paper" src="images/icon-paper.svg">
+      </div>
+      <div class="scissorsButton" data-option="scissors">
+        <img class="scissors" src="images/icon-scissors.svg">
+      </div>
+      <div class="rockButton" data-option="rock">
+        <img class="rock" src="images/icon-rock.svg">
+      </div>
+    </div>
+  </div>
+
+  <div class="resultContent hide">
+    <div class="playerChoice">
+      <h1 class="playerTitle">YOU PICKED</h1>
+      <div class="resultButton">
+        <img class="choiceIcon" src="images/icon-paper.svg">
+      </div>
+    </div>
+
+    <div class="computerChoice">
+      <h1 class="computerTitle">THE HOUSE PICKED</h1>
+      <div class="computerButton">
+        <img class="computerIcon" src="images/icon-paper.svg">
+      </div>
+    </div>
+
+    <div class="status">
+      <h1 class="statusTitle"> WIN</h1>
+      <button class="restartButton">PLAY AGAIN</button>
+    </div>
+  </div>
+
+  <div class="rulesContainer hide">
+    <div class="rulesContent">
+      <h1 class="rulesTitle">Rules <img class="closeBtn" src="images/icon-close.svg"></h1>
+      <img class="rulesImg" src="images/image-rules.svg">
+    </div>
+  </div>
+
+  <div class="rules">
+    <button class="rulesButton">RULES</button>
+  </div>
+
+</div>
+
+  <script src="scripts/app.js"></script>
+</body>
+
+</html>
