@@ -6,48 +6,65 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Where in the world ?</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css"/>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
     <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+    <link rel="icon" href="img/logo.svg">
 
     <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 </head>
 
 <body>
-    
+
     <div class="navbar animate__animated animate__fadeInDown">
         <nav>
             <h1>Where in the world ?</h1>
-            <h3>Dark Mode</h3>
+            <h3 class="darkModeText">Dark Mode</h3>
             <img class="dark-mode-icon" src="img/dark-mode.svg">
         </nav>
     </div>
 
     <div class="main-tools">
-        <input id="searchInput" class="searchbar animate__animated animate__fadeInLeftBig" type="text" placeholder="Search for a country...">
+        <input id="searchInput" class="searchbar animate__animated animate__fadeInLeftBig" type="text"
+            placeholder="Search for a country...">
         <button class="search-icon animate__animated animate__fadeInLeftBig" id="searchButton" type="submit"></button>
         <button class="filterbar animate__animated animate__fadeInRightBig">Filter by Region</button>
         <img class="select-icon animate__animated animate__fadeInRightBig" src="img/select-icon.svg">
     </div>
 
     <div id="results" class="country-card">
-        
+
     </div>
 
     <div class="hide filterOptions">
         <div class="options">
-            <button type="button" class="africa"><h5 class="filterH5">Africa</h5></button>
-            <button type="button" class="america"><h5 class="filterH5">America</h5></button>
-            <button type="button" class="asia"><h5 class="filterH5">Asia</h5></button>
-            <button type="button" class="europe"><h5 class="filterH5">Europe</h5></button>
-            <button type="button" class="oceania"><h5 class="filterH5">Oceania</h5></button>
+            <button type="button" class="africa">
+                <h5 class="filterH5">Africa</h5>
+            </button>
+            <button type="button" class="america">
+                <h5 class="filterH5">America</h5>
+            </button>
+            <button type="button" class="asia">
+                <h5 class="filterH5">Asia</h5>
+            </button>
+            <button type="button" class="europe">
+                <h5 class="filterH5">Europe</h5>
+            </button>
+            <button type="button" class="oceania">
+                <h5 class="filterH5">Oceania</h5>
+            </button>
         </div>
-        <button type="button" class="all"><h5 class="allH5">All</h5></button>
+        <button type="button" class="all">
+            <h5 class="allH5">All</h5>
+        </button>
     </div>
 
 
 
     <div class="more-infos hide">
-        <button onClick="window.location.href=window.location.href" type="button" class="backBtn"><img class="backArrow" src="img/select-icon.svg"><h6>Back</h6></button>
+        <button onClick="window.location.href=window.location.href" type="button" class="backBtn"><img class="backArrow"
+                src="img/select-icon.svg">
+            <h6>Back</h6>
+        </button>
     </div>
 
 
