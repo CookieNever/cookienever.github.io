@@ -635,6 +635,10 @@ h6 {
         position: relative;
         top: 5px;
     }
+    
+    .select-icon {
+        display: none;
+    }
 }
 
 @media screen and (max-width: 450px) {
@@ -805,5 +809,9 @@ h6 {
     .borderStrong {
         position: relative;
         top: 5px;
+    }
+    
+    .select-icon {
+        display: none;
     }
 }
