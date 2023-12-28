@@ -224,3 +224,49 @@ label {
     }
 
 }
+
+
+@media screen and (max-width: 450px) {
+
+    h1 {
+        font-size: 25px;
+        margin-left: 25px;
+        padding-top: 45px;
+    }
+
+    svg {
+        margin-right: 25px;
+        margin-top: -30px;
+    }
+
+    .addTodo {
+        width: 361px;
+        height: 75px;
+        margin-top: 50px;
+        padding-left: 25px;
+        padding-right: 0px;
+        margin-bottom: 60px;
+        margin-left: 0px;
+    }
+
+    .addBtn {
+        position: absolute;
+        top: 132px;
+    }
+
+    .todoList {
+        width: 361px;
+        height: 75px;
+        padding-top: 30px;
+        padding-left: 25px;
+    }
+
+    .todoEmpty {
+        width: 361px;
+        min-height: 75px;
+        margin-left: 0px;
+        margin-top: -35px;
+        margin-bottom: 25px;
+    }
+
+}
