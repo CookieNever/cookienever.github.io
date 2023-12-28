@@ -240,7 +240,7 @@ label {
     }
 
     .addTodo {
-        width: 361px;
+        width: 350px;
         height: 75px;
         margin-top: 50px;
         padding-left: 25px;
@@ -255,14 +255,14 @@ label {
     }
 
     .todoList {
-        width: 361px;
+        width: 350px;
         height: 75px;
         padding-top: 30px;
         padding-left: 25px;
     }
 
     .todoEmpty {
-        width: 361px;
+        width: 350px;
         min-height: 75px;
         margin-left: 0px;
         margin-top: -35px;
