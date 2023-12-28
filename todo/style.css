@@ -199,14 +199,13 @@ label {
         margin-top: 50px;
         padding-left: 25px;
         padding-right: 0px;
-        margin-bottom: 35px;
+        margin-bottom: 60px;
         margin-left: 0px;
     }
 
     .addBtn {
-        position: relative;
-        top: -98px;
-        left: 200px;
+        position: absolute;
+        top: 145px;
     }
 
     .todoList {
