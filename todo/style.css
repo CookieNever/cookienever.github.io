@@ -198,7 +198,7 @@ label {
         height: 75px;
         margin-top: 50px;
         padding-left: 25px;
-        padding-right: 0px;
+        padding-right: 75px;
         margin-bottom: 60px;
         margin-left: 0px;
     }
@@ -226,7 +226,7 @@ label {
 }
 
 
-@media screen and (max-width: 450px) {
+@media screen and (max-width: 400px) {
 
     h1 {
         font-size: 25px;
@@ -244,7 +244,7 @@ label {
         height: 75px;
         margin-top: 50px;
         padding-left: 25px;
-        padding-right: 0px;
+        padding-right: 75px;
         margin-bottom: 60px;
         margin-left: 0px;
     }
