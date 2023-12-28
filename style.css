@@ -477,7 +477,7 @@ h6 {
     }
 }
 
-@media screen and (max-width: 767px) {
+@media screen and (max-width: 400px) {
     .country-card {
         grid-template-columns: repeat(1, 250px);
         gap: 35px;
@@ -558,13 +558,6 @@ h6 {
         background-size: cover;
     }
 
-
-
-
-
-
-
-
     .nativeName {
         position: absolute;
         top: 47%;
@@ -641,5 +634,184 @@ h6 {
     .borderStrong {
         position: relative;
         top: 5px;
+    }
+    
+    .select-icon {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .country-card {
+        grid-template-columns: repeat(1, 250px);
+        gap: 35px;
+    }
+
+    h1 {
+        padding-left: 100px;
+    }
+
+    .box {
+        height: 350px;
+    }
+
+    .infos {
+        width: 250px;
+    }
+
+    .last-info {
+        padding-bottom: 0;
+    }
+
+    .more-flag {
+        max-height: 180px;
+        max-width: 390px;
+        position: relative;
+        left: -74px;
+        top: -45px;
+    }
+
+    .moreCountryName {
+        position: absolute;
+        top: 235px;
+        left: 145px;
+        font-size: 18px;
+    }
+
+    .backBtn {
+        position: relative;
+        top: -63px;
+        left: 50px;
+    }
+
+    .filterOptions {
+        display: none;
+    }
+
+    .filterbar {
+        display: none;
+    }
+
+    .dark-mode-icon,
+    .darkModeText {
+        display: none;
+    }
+
+    .searchbar {
+        font-family: 'Roboto', sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+        display: inline-block;
+        outline: none;
+        background-color: #FFFFFF;
+        width: 395px;
+        height: 56px;
+        box-shadow: 0px 0px 8px 2px rgba(102, 102, 102, 0.2);
+        border: none;
+        border-radius: 8px;
+        margin-top: 30px;
+        margin-left: 10px;
+        padding-left: 74px;
+    }
+
+    .search-icon {
+        cursor: pointer;
+        position: relative;
+        top: 3px;
+        width: 20px;
+        border: none;
+        height: 20px;
+        margin-left: -370px;
+        background: transparent url(img/search-icon.svg);
+        background-size: cover;
+    }
+
+
+
+
+
+
+
+
+    .nativeName {
+        position: absolute;
+        top: 40%;
+        left: 10%;
+        font-size: 12px;
+    }
+
+    .populationM {
+        position: absolute;
+        top: 44%;
+        left: 10%;
+        font-size: 12px;
+    }
+
+    .regionM {
+        position: absolute;
+        top: 48%;
+        left: 10%;
+        font-size: 12px;
+    }
+
+    .subRegion {
+        position: absolute;
+        top: 52%;
+        left: 10%;
+        font-size: 12px;
+    }
+
+    .capitalM {
+        position: absolute;
+        top: 56%;
+        left: 10%;
+        font-size: 12px;
+    }
+
+    .topLevelDomain {
+        position: absolute;
+        top: 63%;
+        left: 10%;
+        font-size: 12px;
+    }
+
+    .currency {
+        position: absolute;
+        top: 67%;
+        left: 10%;
+        font-size: 12px;
+    }
+
+    .language {
+        position: absolute;
+        top: 71%;
+        left: 10%;
+        font-size: 12px;
+    }
+
+    .borderCountries {
+        display: flex;
+        flex-wrap: wrap;
+        position: absolute;
+        top: 78%;
+        left: 0%;
+        font-size: 12px;
+    }
+
+    .borderSpan {
+        box-shadow: 0px 0px 8px 2px rgba(102, 102, 102, 0.2);
+        padding-top: 5px;
+        padding-bottom: 5px;
+        margin-right: 5px;
+        margin-bottom: 5px;
+    }
+
+    .borderStrong {
+        position: relative;
+        top: 5px;
+    }
+    
+    .select-icon {
+        display: none;
     }
 }
