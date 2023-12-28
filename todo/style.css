@@ -180,6 +180,18 @@ label {
     display: none;
 }
 
+@media screen and (max-width: 1536px) {
+
+    h1 {
+        margin-left: 405px;
+    }
+
+    svg {
+        margin-right: 405px;
+    }
+    
+}
+
 @media screen and (max-width: 450px) {
 
     h1 {
