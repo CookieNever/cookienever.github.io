@@ -140,3 +140,25 @@ function saveTodoItems() {
 
     localStorage.setItem("todoItems", JSON.stringify(todoItems));
 }
+
+const lightModeBtn = document.querySelector(".lightModeBtn")
+
+lightModeBtn.addEventListener("click", function() {
+
+    const lightBody = document.querySelector("body")
+    const lightTodo = document.querySelector(".addTodo")
+    const lightAddBtn = document.querySelector(".addBtn")
+    const lightEmptyTodo = document.querySelector(".todoEmpty")
+
+    lightBody.classList.add("bodyLight")
+
+    lightTodo.classList.add("addTodoLight")
+    lightTodo.classList.remove("addTodo")
+
+    lightAddBtn.classList.add("addBtnLight")
+    lightAddBtn.classList.remove("addBtn")
+
+    lightEmptyTodo.classList.add("todoEmptyLight")
+    lightEmptyTodo.classList.remove("todoEmpty")
+
+})
