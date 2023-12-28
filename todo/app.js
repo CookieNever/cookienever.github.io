@@ -143,22 +143,51 @@ function saveTodoItems() {
 
 const lightModeBtn = document.querySelector(".lightModeBtn")
 
-lightModeBtn.addEventListener("click", function() {
+function applyStylesToElement(element) {
 
-    const lightBody = document.querySelector("body")
-    const lightTodo = document.querySelector(".addTodo")
-    const lightAddBtn = document.querySelector(".addBtn")
-    const lightEmptyTodo = document.querySelector(".todoEmpty")
+        const lightBody = document.querySelector("body")
+        const lightTodo = document.querySelector(".addTodo")
+        const lightAddBtn = document.querySelector(".addBtn")
+        const lightEmptyTodo = document.querySelector(".todoEmpty")
+        const lightRemoveBtn = document.querySelectorAll(".removeBtn")
+        const lightTodoList = document.querySelectorAll(".todoList")
+        const lightFirstTodo = document.querySelectorAll(".firstTodo")
+        const lightSep = document.querySelectorAll(".separation")
+        const lightImg = document.querySelector(".topBanner")
 
-    lightBody.classList.add("bodyLight")
+        lightBody.style.color = "hsl(236, 23%, 77%)"
+        lightBody.style.backgroundColor = "hsl(236, 33%, 92%)"
 
-    lightTodo.classList.add("addTodoLight")
-    lightTodo.classList.remove("addTodo")
+        lightTodo.style.color = "hsl(235, 24%, 19%)"
+        lightTodo.style.backgroundColor = "hsl(0, 0%, 98%)"
 
-    lightAddBtn.classList.add("addBtnLight")
-    lightAddBtn.classList.remove("addBtn")
+        lightAddBtn.style.color = "hsl(236, 23%, 77%)"
+        lightAddBtn.style.backgroundColor = "hsl(236, 33%, 92%)"
 
-    lightEmptyTodo.classList.add("todoEmptyLight")
-    lightEmptyTodo.classList.remove("todoEmpty")
+        lightEmptyTodo.style.backgroundColor = "hsl(0, 0%, 98%)"
 
-})
+        lightRemoveBtn.forEach(btn => {
+            btn.style.color = "hsl(236, 23%, 77%)";
+        });
+        
+        lightTodoList.forEach(todo => {
+            todo.style.backgroundColor = "hsl(0, 0%, 98%)";
+        });
+
+        lightFirstTodo.forEach(first => {
+            first.style.backgroundColor = "hsl(0, 0%, 98%)"
+            first.style.border = "1px solid hsl(236, 23%, 77%)"
+        })
+
+        lightSep.forEach(sep => {
+            sep.style.border = "1px solid hsl(236, 33%, 92%)"
+        })
+
+        lightImg.style.background = "url('images/bg-desktop-light.jpg')"
+        lightImg.style.height = "300px"
+}
+
+lightModeBtn.addEventListener("click", function () {
+    const todoDiv = document.querySelector(".todoList");
+    applyStylesToElement(todoDiv);
+});
