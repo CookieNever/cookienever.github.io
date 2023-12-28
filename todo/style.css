@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@100;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    color: #FFF;
+    font-family: 'Josefin Sans', sans-serif;
+}
+
+body {
+    background-color: hsl(235, 21%, 11%);
+}
+
+.topBanner {
+    background-image: url("images/bg-desktop-dark.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 350px;
+}
+
+h1 {
+    font-weight: 700;
+    font-size: 50px;
+    letter-spacing: 15px;
+    margin-left: 600px;
+    padding-top: 100px;
+}
+
+svg {
+    cursor: pointer;
+    float: right;
+    margin-top: -50px;
+    margin-right: 600px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.addTodo {
+    background-color: hsl(235, 24%, 19%);
+    outline: none;
+    border: none;
+    width: 715px;
+    height: 75px;
+    margin-top: 50px;
+    padding-left: 25px;
+    padding-right: 80px;
+    font-size: 18px;
+    border-radius: 10px;
+    margin-bottom: 25px;
+}
+
+.addTodo::placeholder {
+    color: hsl(234, 39%, 85%);
+    font-size: 18px;
+    opacity: 50%;
+}
+
+.todoEmpty {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background-color: hsl(235, 24%, 19%);
+    outline: none;
+    border: none;
+    width: 715px;
+    min-height: 75px;
+    font-size: 18px;
+    border-radius: 10px;
+}
+
+.addBtn {
+    cursor: pointer;
+    position: absolute;
+    top: 213px;
+    margin-left: -65px;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+    background-color: hsl(235, 21%, 11%);
+    font-size: 50px;
+    font-weight: 700;
+    color: hsl(234, 39%, 85%);
+}
+
+.removeBtn {
+    float: right;
+    margin-top: -20px;
+    cursor: pointer;
+    width: 50px;
+    height: 50px;
+    border-radius: 100%;
+    border: none;
+    outline: none;
+    background-color: transparent;
+    font-size: 40px;
+    font-weight: 100;
+    color: hsl(234, 39%, 85%);
+    padding-top: 8px;
+}
+
+.removeBtn:hover {
+    color: hsl(236, 33%, 92%);
+}
+
+.todoList {
+    background-color: hsl(235, 24%, 19%);
+    outline: none;
+    border: none;
+    width: 715px;
+    height: 75px;
+    font-size: 18px;
+    border-radius: 10px;
+    padding-top: 30px;
+    padding-left: 25px;
+}
+
+label {
+    margin-left: 25px;
+}
+
+.firstTodo {
+    margin-top: -4px;
+    height: 25px;
+    width: 25px;
+    background-color: hsl(235, 24%, 19%);
+    border-radius: 50%;
+    vertical-align: middle;
+    border: 1px solid hsl(233, 14%, 35%);
+    appearance: none;
+    -webkit-appearance: none;
+    outline: none;
+    cursor: pointer;
+}
+
+.firstTodo:hover {
+    border: 1px solid hsl(236, 33%, 92%);
+}
+
+.firstTodo:checked {
+    background: linear-gradient(hsl(192, 100%, 67%), hsl(280, 87%, 65%));
+}
+
+.checked {
+    text-decoration: line-through;
+    color: hsl(234, 39%, 85%);
+    opacity: 50%;
+}
+
+.separation {
+    margin-top: 15px;
+    margin-left: -25px;
+    border: 1px solid hsl(233, 14%, 35%);
+}
+
+.emptySep {
+    width: 715px;
+    border: 1px solid hsl(233, 14%, 35%);
+    margin-bottom: 15px;
+}
+
+.emptyText {
+    padding-bottom: 20px;
+    padding-top: 25px;
+}
+
+.infos {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.hide {
+    display: none;
+}
+
+@media screen and (max-width: 400px) {}
