@@ -497,7 +497,7 @@ h6 {
 
     .more-flag {
         max-height: 180px;
-        maw-width: 330px;
+        max-width: 330px;
         position: relative;
         left: -74px;
         top: -50px;
