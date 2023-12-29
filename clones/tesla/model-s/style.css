@@ -5,11 +5,11 @@
     padding: 0;
     box-sizing: border-box;
     font-family: 'Roboto', sans-serif;
-    color: #FFF;
 }
 
 body {
     height: 100%;
+    color: #FFF;
 
     -ms-overflow-style: none;
     scrollbar-width: none;
@@ -125,24 +125,24 @@ table {
     margin: auto;
 }
 
-th,
+.bottom th,
 td {
     text-align: center;
     padding-right: 120px;
     padding-bottom: 10px;
 }
 
-td {
+.bottom td {
     font-size: 16px;
 }
 
-th {
+.bottom th {
     background-color: transparent;
     color: white;
     font-size: 24px;
 }
 
-button {
+.firstOrderBtn {
     float: right;
     padding: 10px 20px;
     background-color: #FFF;
@@ -157,14 +157,14 @@ button {
     font-size: 16px;
 }
 
-button a {
+.firstOrderBtn a {
     color: #3b3b3b;
     font-weight: 600;
     font-size: 16px;
     text-decoration: none;
 }
 
-button:hover {
+.firstOrderBtn:hover {
     opacity: 90%;
 }
 
@@ -317,6 +317,142 @@ button:hover {
     width: 950px;
 }
 
-.lastText {
-    padding-bottom: 150px;
+
+
+.fourthPage img {
+    width: 100%;
+    z-index: -1;
+}
+
+.fourthPage th,
+td {
+    position: relative;
+    top: -400px;
+    text-align: center;
+    padding-right: 150px;
+    padding-bottom: 10px;
+    padding-left: 50px;
+}
+
+.fourthPage td {
+    font-size: 16px;
+}
+
+.fourthPage th {
+    background-color: transparent;
+    color: white;
+    font-size: 24px;
+}
+
+.fourthPage table {
+    padding-left: 100px;
+}
+
+
+
+.fivePage {
+    position: relative;
+    top: -355px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #FFF;
+    color: #000;
+    padding: 50px;
+}
+
+.fivePage a {
+    color: #000;
+    text-decoration: none;
+}
+
+.fiveRight {
+    width: 800px;
+    padding-left: 150px;
+}
+
+.fiveRight a {
+    cursor: pointer;
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+.fiveLeft h2 {
+    padding-bottom: 20px;
+}
+
+.fiveCompareBtn {
+    float: right;
+    padding: 10px 20px;
+    background-color: #f4f4f4;
+    color: #3b3b3b;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 16px;
+    margin-right: 20px;
+}
+
+.fiveCompareBtn:hover {
+    opacity: 90%;
+}
+
+.fiveOrderBtn {
+    float: right;
+    padding: 10px 20px;
+    border: 3px solid #000;
+    background-color: #FFF;
+    color: #3b3b3b;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 16px;
+    margin-right: 20px;
+
+    transition: .5s;
+}
+
+.fiveOrderBtn:hover {
+    background-color: #000;
+    color: #FFF;
+}
+
+
+.sixPage {
+    position: relative;
+    top: -300px;
+    display: flex;
+    flex-direction: column;
+    background-color: #f4f4f4;
+    margin-top: -55px;
+    color: #000;
+    padding-top: 150px;
+}
+
+.sixPage img {
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+    width: 70%;
+}
+
+.sixPage h2,
+p {
+    padding-left: 400px;
+}
+
+.sixPage p {
+    width: 1200px;
+    padding-bottom: 100px;
+}
+
+.sixPage h2 {
+    font-size: 28px;
 }
