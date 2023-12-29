@@ -1,0 +1,315 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+    color: #FFF;
+}
+
+body {
+    height: 100%;
+}
+
+.video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+    z-index: -1;
+}
+
+.video-container video {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.navbar {
+    background-color: transparent;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px;
+}
+
+.navbar svg {
+    max-height: 12px;
+    margin-right: 10px;
+    margin-left: 30px;
+}
+
+.navbar-links {
+    flex-grow: 1;
+    display: flex;
+    justify-content: center;
+    font-weight: 600;
+}
+
+.navbar-links a {
+    color: white;
+    text-decoration: none;
+    padding: 10px;
+    margin: 0 10px;
+}
+
+.navbar-buttons {
+    display: flex;
+}
+
+.navbar-buttons img {
+    height: 25px;
+    cursor: pointer;
+    margin-left: 15px;
+}
+
+.lastBtn {
+    margin-right: 30px;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 100px;
+}
+
+.content h1 {
+    font-size: 46px;
+    font-weight: 400;
+}
+
+.price {
+    font-size: 20px;
+    margin-bottom: 3px;
+}
+
+.underPrice {
+    font-size: 16px;
+}
+
+.content {
+    text-align: center;
+}
+
+
+
+
+
+
+
+
+
+
+.bottom {
+    background-color: transparent;
+    color: white;
+    padding: 15px;
+    text-align: center;
+
+    padding-top: 480px;
+}
+
+table {
+    margin: auto;
+}
+
+th,
+td {
+    text-align: center;
+    padding-right: 120px;
+    padding-bottom: 10px;
+}
+
+td {
+    font-size: 16px;
+}
+
+th {
+    background-color: transparent;
+    color: white;
+    font-size: 24px;
+}
+
+button {
+    float: right;
+    padding: 10px 20px;
+    background-color: #FFF;
+    color: #3b3b3b;
+    border: none;
+    cursor: pointer;
+    font-weight: 600;
+    border-radius: 5px;
+    width: 200px;
+    height: 40px;
+    margin-top: 10px;
+    font-size: 16px;
+}
+
+button a {
+    color: #3b3b3b;
+    font-weight: 600;
+    font-size: 16px;
+    text-decoration: none;
+}
+
+button:hover {
+    opacity: 90%;
+}
+
+.moreInfo {
+    padding-top: 30px;
+    font-size: 14px;
+}
+
+.moreInfo a {
+    cursor: pointer;
+    text-decoration: underline;
+}
+
+.moreInfo a:hover {
+    text-decoration-thickness: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+:root {
+    --whitePagination: #fff;
+    --grayPagination: #5c5e62;
+
+    --swiper-pagination-color: var(--whitePagination);
+    --swiper-pagination-bullet-inactive-color: var(--grayPagination);
+    --swiper-pagination-bullet-inactive-opacity: 1;
+    --swiper-pagination-bullet-size: 12px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+.secondPage {
+    display: flex;
+    justify-content: center;
+    padding-top: 100px;
+    position: relative;
+    height: 100vh;
+    background: url("assets/Model-S-Interior-Hero-Desktop-LHD.avif");
+    background-size: cover;
+    width: 100%;
+    box-shadow: inset 0px 50px 20px -1px #000000;
+}
+
+.secondTitle h1 {
+    font-size: 34px;
+}
+
+
+
+.thirdPage {
+    justify-content: center;
+    background-color: #000;
+    width: 100%;
+    padding-top: 150px;
+}
+
+.thirdPage video {
+    padding-bottom: 100px;
+    position: relative;
+    left: 50%;
+    transform: translate(-50%);
+}
+
+
+.swiper {
+    width: 627px;
+    height: 300px;
+    margin-top: -175px;
+    color: #FFF;
+}
+
+.swiper-pagination {
+    padding-bottom: 150px;
+    margin-left: -268px;
+    color: green;
+}
+
+.swiper-slide {
+    padding-top: 150px;
+}
+
+
+.additional-content {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    margin-top: 50px;
+}
+
+.content-block {
+    flex: 0 1 30%;
+
+}
+
+.content-block img {
+    width: 100%;
+    max-width: 550px;
+    /* Adjust the maximum width of the images as needed */
+    border-radius: 8px;
+    /* Optional: Add border-radius for rounded corners */
+    margin-bottom: 8px;
+    margin-left: 450px;
+}
+
+.content-block video {
+    width: 100%;
+    max-width: 550px;
+    /* Adjust the maximum width of the images as needed */
+    border-radius: 8px;
+    /* Optional: Add border-radius for rounded corners */
+    margin-bottom: 8px;
+    margin-left: -850px;
+    margin-top: 50px;
+}
+
+.rightText {
+    float: right;
+    padding-right: 300px;
+    padding-left: 150px;
+    margin-top: 150px;
+    width: 900px;
+}
+
+.leftText {
+    float: left;
+    padding-left: 450px;
+    margin-top: 150px;
+    width: 950px;
+}
+
+.lastText {
+    padding-bottom: 150px;
+}
