@@ -445,15 +445,95 @@ th {
 }
 
 .sixPage h2,
-.sixPage p {
+.sixText {
     padding-left: 400px;
 }
 
-.sixPage p {
+.sixText {
     width: 1200px;
     padding-bottom: 100px;
 }
 
 .sixPage h2 {
     font-size: 28px;
+}
+
+.modelCards {
+    display: flex;
+    flex-direction: row;
+    padding-top: 75px;
+    position: relative;
+    left: 50%;
+    transform: translate(-29.5%);
+    padding-bottom: 125px;
+}
+
+.sixModels {
+    cursor: pointer;
+    margin-right: 20px;
+    padding: 15px;
+    width: 550px;
+}
+
+.modelsSep {
+    border: none;
+    border-bottom: 3px solid #000;
+}
+
+
+.sixTH,
+.sixTD {
+    color: #000;
+    position: relative;
+    left: -140px;
+    padding-right: 25px;
+    padding-left: 25px;
+    width: 900px;
+}
+
+.sixTD {
+    color: #000;
+    font-size: 14px;
+    position: relative;
+    top: -15px;
+    left: -137px;
+}
+
+.sixTH {
+    background-color: transparent;
+    color: #000;
+    font-size: 24px;
+    position: relative;
+    left: -139px;
+}
+
+.sixTable {
+    position: relative;
+    left: 80px;
+}
+
+.firstSixTH {
+    position: relative;
+    left: -131px;
+}
+
+.nonactiveModelCard {
+    opacity: 30%;
+}
+
+.sixMoreInfo {
+    text-align: center;
+    position: relative;
+    top: -75px;
+    font-size: 14px;
+}
+
+
+
+
+
+.sevenPage img {
+    width: 100%;
+    position: relative;
+    top: -575px;
 }
