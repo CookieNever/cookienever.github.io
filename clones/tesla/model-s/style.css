@@ -125,18 +125,18 @@ table {
     margin: auto;
 }
 
-.bottom th,
+th,
 td {
     text-align: center;
     padding-right: 120px;
     padding-bottom: 10px;
 }
 
-.bottom td {
+td {
     font-size: 16px;
 }
 
-.bottom th {
+th {
     background-color: transparent;
     color: white;
     font-size: 24px;
@@ -173,12 +173,13 @@ td {
     font-size: 14px;
 }
 
-.moreInfo a {
+.moreInfoLink {
     cursor: pointer;
     text-decoration: underline;
+    color: #FFF;
 }
 
-.moreInfo a:hover {
+.moreInfoLink:hover {
     text-decoration-thickness: 2px;
 }
 
@@ -324,8 +325,8 @@ td {
     z-index: -1;
 }
 
-.fourthPage th,
-td {
+.fourthTH,
+.fourthTD {
     position: relative;
     top: -400px;
     text-align: center;
@@ -334,17 +335,17 @@ td {
     padding-left: 50px;
 }
 
-.fourthPage td {
+.fourthTD {
     font-size: 16px;
 }
 
-.fourthPage th {
+.fourthTH {
     background-color: transparent;
     color: white;
     font-size: 24px;
 }
 
-.fourthPage table {
+.fourthTable {
     padding-left: 100px;
 }
 
@@ -444,7 +445,7 @@ td {
 }
 
 .sixPage h2,
-p {
+.sixPage p {
     padding-left: 400px;
 }
 
