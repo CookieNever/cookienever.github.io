@@ -122,6 +122,22 @@ body::-webkit-scrollbar {
     padding-top: 100px;
 }
 
+.firstHeroInfo {
+    animation-delay: .2s;
+}
+
+.secondHeroInfo {
+    animation-delay: .4s;
+}
+
+.thirdHeroInfo {
+    animation-delay: .6s;
+}
+
+.fourthHeroInfo {
+    animation-delay: .8s;
+}
+
 .content h1 {
     font-size: 46px;
     font-weight: 400;
@@ -183,6 +199,8 @@ th {
     height: 40px;
     margin-top: 10px;
     font-size: 16px;
+
+    animation-delay: 1s;
 }
 
 .firstOrderBtn a {
