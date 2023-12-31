@@ -19,6 +19,47 @@ body::-webkit-scrollbar {
     display: none;
 }
 
+.scrollNavbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px;
+    backdrop-filter: blur(100px);
+    /* Black background color */
+    position: fixed;
+    /* Make it stick/fixed */
+    top: -150px;
+    /* Hide the navbar 50 px outside of the top view */
+    width: 100%;
+    /* Full width */
+    transition: top 0.3s;
+    /* Transition effect when sliding down (and up) */
+    z-index: 4;
+}
+
+.scrollNavbar h1 {
+    font-size: 18px;
+    padding-left: 50px;
+}
+
+.orderLink {
+    background-color: #393c41;
+    padding: 5px;
+    width: 150px;
+    border-radius: 6px;
+}
+
+/* Style the navbar links */
+.scrollNavbar a {
+    float: left;
+    color: white;
+    text-align: center;
+    margin: 10px;
+    text-decoration: none;
+    margin-right: 50px;
+    padding-top: 5px;
+}
+
 .video-container {
     position: fixed;
     top: 0;

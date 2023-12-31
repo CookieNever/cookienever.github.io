@@ -27,10 +27,6 @@ modelSPlaid.addEventListener("click", function () {
 })
 
 
-
-
-
-
 const tenActiveModelCard = document.querySelector(".tenactiveModelCard")
 const tenNonactiveModelCard = document.querySelector(".tennonactiveModelCard")
 
@@ -104,39 +100,6 @@ fourthBlock.addEventListener("click", function () {
 
     destinationImg.src = "assets/fourthDestinationVid.mp4"
 })
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 const fourteenActiveModelCard = document.querySelector(".tenactiveModelCard")
@@ -423,3 +386,14 @@ modelSComp.addEventListener("click", function () {
     modelSPlaidComp.style.border = "3px solid #222"
 
 })
+
+
+window.onscroll = function () { scrollFunction() };
+
+function scrollFunction() {
+    if (document.body.scrollTop > 750 || document.documentElement.scrollTop > 750) {
+        document.querySelector(".scrollNavbar").style.top = "0";
+    } else {
+        document.querySelector(".scrollNavbar").style.top = "-150px";
+    }
+}
