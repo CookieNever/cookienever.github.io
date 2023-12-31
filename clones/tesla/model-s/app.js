@@ -214,46 +214,6 @@ ffourthBlock.addEventListener("click", function () {
 })
 
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 const modelSPlaidComp = document.querySelector(".modelsplaidBtn")
 const modelSComp = document.querySelector(".modelsBtn")
 
