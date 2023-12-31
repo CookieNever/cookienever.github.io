@@ -25,6 +25,7 @@ body::-webkit-scrollbar {
     align-items: center;
     justify-content: space-between;
     padding: 0px;
+    background-color: rgba(31, 31, 31, 0.3);
     backdrop-filter: blur(100px);
     position: fixed;
     top: -150px;
