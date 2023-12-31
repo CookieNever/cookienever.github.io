@@ -103,15 +103,6 @@ body::-webkit-scrollbar {
     text-align: center;
 }
 
-
-
-
-
-
-
-
-
-
 .bottom {
     background-color: transparent;
     color: white;
@@ -183,21 +174,6 @@ th {
     text-decoration-thickness: 2px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 :root {
     --whitePagination: #fff;
     --grayPagination: #5c5e62;
@@ -207,17 +183,6 @@ th {
     --swiper-pagination-bullet-inactive-opacity: 1;
     --swiper-pagination-bullet-size: 12px;
 }
-
-
-
-
-
-
-
-
-
-
-
 
 .secondPage {
     display: flex;
@@ -235,8 +200,6 @@ th {
     font-size: 34px;
 }
 
-
-
 .thirdPage {
     justify-content: center;
     background-color: #000;
@@ -250,7 +213,6 @@ th {
     left: 50%;
     transform: translate(-50%);
 }
-
 
 .swiper {
     width: 627px;
@@ -269,7 +231,6 @@ th {
     padding-top: 150px;
 }
 
-
 .additional-content {
     display: flex;
     justify-content: center;
@@ -285,9 +246,7 @@ th {
 .content-block img {
     width: 100%;
     max-width: 550px;
-    /* Adjust the maximum width of the images as needed */
     border-radius: 8px;
-    /* Optional: Add border-radius for rounded corners */
     margin-bottom: 8px;
     margin-left: 450px;
 }
@@ -295,9 +254,7 @@ th {
 .content-block video {
     width: 100%;
     max-width: 550px;
-    /* Adjust the maximum width of the images as needed */
     border-radius: 8px;
-    /* Optional: Add border-radius for rounded corners */
     margin-bottom: 8px;
     margin-left: -850px;
     margin-top: 50px;
@@ -317,8 +274,6 @@ th {
     margin-top: 150px;
     width: 950px;
 }
-
-
 
 .fourthPage img {
     width: 100%;
@@ -348,8 +303,6 @@ th {
 .fourthTable {
     padding-left: 100px;
 }
-
-
 
 .fivePage {
     position: relative;
@@ -425,7 +378,6 @@ th {
     color: #FFF;
 }
 
-
 .sixPage {
     position: relative;
     top: -300px;
@@ -482,7 +434,6 @@ th {
     border-bottom: 3px solid #000;
 }
 
-
 .sixTH,
 .sixTD {
     color: #000;
@@ -530,17 +481,11 @@ th {
     font-size: 14px;
 }
 
-
-
-
-
 .sevenPage img {
     width: 100%;
     position: relative;
     top: -575px;
 }
-
-
 
 .eightPage {
     position: relative;
@@ -609,8 +554,6 @@ th {
     color: #000;
 }
 
-
-
 .eight-additional-content {
     display: flex;
     justify-content: center;
@@ -626,9 +569,7 @@ th {
 .content-block-img-left {
     width: 100%;
     max-width: 550px;
-    /* Adjust the maximum width of the images as needed */
     border-radius: 8px;
-    /* Optional: Add border-radius for rounded corners */
     margin-bottom: 8px;
     margin-left: 400px;
 }
@@ -636,9 +577,7 @@ th {
 .content-block-img-right {
     width: 100%;
     max-width: 550px;
-    /* Adjust the maximum width of the images as needed */
     border-radius: 8px;
-    /* Optional: Add border-radius for rounded corners */
     margin-bottom: 8px;
     margin-left: 0px;
 }
@@ -659,9 +598,6 @@ th {
     margin-top: 150px;
     width: 900px;
 }
-
-
-
 
 .angry-grid {
     display: grid;
@@ -797,16 +733,6 @@ th {
     top: -250px;
 }
 
-
-
-
-
-
-
-
-
-
-
 .tenPage {
     position: relative;
     top: 360px;
@@ -909,22 +835,11 @@ th {
     margin-bottom: 150px;
 }
 
-
-
-
-
-
-
-
-
-
 .elevenPage {
     background-color: #FFF;
     width: 100%;
     height: 100%;
 }
-
-
 
 #item-2 img {
     width: 75%;
@@ -1061,9 +976,6 @@ th {
     top: -250px;
 }
 
-
-
-
 .twelvePage {
     color: #000;
 }
@@ -1095,8 +1007,6 @@ th {
     top: 5px;
     height: 80px;
 }
-
-
 
 .thirteenPage {
     position: relative;
@@ -1171,35 +1081,6 @@ th {
     background-color: #000;
     color: #FFF;
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 .fourteenPage {
     position: relative;
@@ -1310,27 +1191,9 @@ th {
     margin-bottom: 150px;
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 .fiveteenPage {
     display: flex;
 }
-
 
 .carImg img {
     width: 60%;
@@ -1417,7 +1280,6 @@ th {
     display: none;
 }
 
-
 .compareModelBtn {
     position: relative;
     top: 0px;
@@ -1444,7 +1306,6 @@ th {
     color: #000;
     background-color: #FFF;
 }
-
 
 .lastSection {
     background-color: #FFF;
@@ -1523,7 +1384,6 @@ th {
 .estimateBtn:hover {
     opacity: 90%;
 }
-
 
 footer {
     background-color: #FFF;
