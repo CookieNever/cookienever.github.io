@@ -1,0 +1,16 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.background {
+    display: block;
+    width: 100%;
+    position: absolute;
+    height: 100%;
+    background-image: url("	https://sxcontent9668.azureedge.us/cms-assets/assets/USSF_52_ramp_DSC_8083_desktop_e83656a9da.jpg");
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}

@@ -17,6 +17,7 @@ input[type="search"]::-webkit-search-results-decoration {
 
 body {
     background-color: rgb(250, 250, 250);
+    overflow-x: hidden;
 }
 
 .navbar {
@@ -635,7 +636,7 @@ h6 {
         position: relative;
         top: 5px;
     }
-    
+
     .select-icon {
         display: none;
     }
@@ -810,7 +811,7 @@ h6 {
         position: relative;
         top: 5px;
     }
-    
+
     .select-icon {
         display: none;
     }
