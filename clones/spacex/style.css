@@ -1,7 +1,15 @@
+@font-face {
+    font-family: "d-din";
+    src: url(fonts/d-din/d-din-webfont.woff) format(woff);
+}
+
+
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: "d-din";
+    color: #fff;
 }
 
 .background {
@@ -9,8 +17,39 @@
     width: 100%;
     position: absolute;
     height: 100%;
-    background-image: url("	https://sxcontent9668.azureedge.us/cms-assets/assets/USSF_52_ramp_DSC_8083_desktop_e83656a9da.jpg");
+    background-image: url("https://sxcontent9668.azureedge.us/cms-assets/assets/Starlink_G7_15_SW_Hill_Horiz_0538_Desktop_17c5faabea.jpg");
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 4px;
+    width: 100%;
+}
+
+.navbar a {
+    font-weight: 700;
+    text-decoration: none;
+    margin-right: 30px;
+    font-size: 14px;
+}
+
+.rightnav {
+    margin-top: 35px;
+}
+
+.hamburgerBtn {
+    position: relative;
+    top: 5px;
+    height: 20px;
+}
+
+.logo {
+    width: 200px;
+    position: relative;
+    top: 15px;
 }
