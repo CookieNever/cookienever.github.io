@@ -3,6 +3,15 @@
     src: url(fonts/d-din/d-din-webfont.woff) format(woff);
 }
 
+::-moz-selection {
+    color: black;
+    background: white;
+}
+
+::selection {
+    color: black;
+    background: white;
+}
 
 * {
     margin: 0;
@@ -52,4 +61,43 @@
     width: 200px;
     position: relative;
     top: 15px;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    height: 90%;
+}
+
+.firstContent {
+    padding-left: 315px;
+    padding-top: 440px;
+}
+
+.firstContent h2 {
+    font-weight: normal;
+    font-size: 22px;
+}
+
+.firstContent h1 {
+    font-size: 52px;
+    font-weight: 700;
+    padding-top: 5px;
+}
+
+.btn {
+    cursor: pointer;
+    width: 170px;
+    height: 50px;
+    background: transparent;
+    border: 2px solid #fff;
+    font-weight: 700;
+
+    transition: .2s;
+}
+
+.btn:hover {
+    background-color: #fff;
+    color: #000;
 }
